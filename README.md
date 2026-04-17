@@ -1,37 +1,33 @@
-# KeenKeeper
+#  KeenKeeper 
 
-![KeenKeeper - Friendship Dashboard](./src/assets/logo.png)
+**KeenKeeper** is a personal relationship management tool designed to help users nurture and maintain meaningful connections. It tracks your last contact with friends, sets relationship goals, and logs every interaction, ensuring no friendship is ever forgotten.
 
-A personal friendship dashboard built with Next.js to help you keep track of meaningful relationships with reminders, timelines, and analytics.
+##  Live Demo
+https://keenkeeper-beryl.vercel.app/
 
-## Description
+##  Technologies Used
+- **Framework:** Next.js / React.js
+- **Styling:** Tailwind CSS (Responsive Design)
+- **Routing:** React Router DOM / Next.js App Router
+- **Charts:** Recharts (For Analytics)
+- **Notifications:** React Hot Toast / Sonner (Toast notifications)
+- **Icons:** React Icons / Lucide React
+- **Deployment:** Vercel / Netlify
 
-KeenKeeper is a web application that helps you maintain and nurture your important friendships by tracking interactions, setting goals, and providing insights into your relationship habits. Never let important connections fade away - stay connected with the people who matter most.
+##  Key Features
 
-## Tech Stack
+### 1.  Smart Relationship Tracking
+Categorizes friends into **Overdue**, **Almost Due**, and **On-Track** status based on contact frequency. This visual aid helps users prioritize who they need to reach out to next.
 
-- **Framework**: [Next.js 16](https://nextjs.org) - React framework for production-grade applications
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com) - Utility-first CSS framework
-- **Icons**: [Lucide React](https://lucide.dev) - Beautiful & consistent icons
-- **Charts**: [Recharts](https://recharts.org) - Composed charting library for React
-- **Language**: JavaScript (ES6+)
+### 2.  Real-time Interaction Logging
+Users can log calls, texts, or video chats directly from a friend's detail page. Each action triggers a toast notification and instantly updates the **Timeline** and **Friendship Analytics**.
 
-## Key Features
+### 3.  Friendship Analytics & Filtering
+Features a dedicated **Stats Page** with a Pie Chart (using Recharts) to visualize interaction types. The **Timeline Page** also includes advanced filtering to sort interactions by Call, Text, or Video.
 
-### 1. Friend Management
-- Add and manage your close friends with profile photos
-- Track days since last contact for each friend
-- View friend status: Active, Away, Overdue, Due Soon
-- Tag friends with interests and hobbies
 
-### 2. Timeline Tracking
-- Log interactions (Call, Text, Video) with friends
-- View timeline of all interactions
-- Filter by interaction type
-- Search and sort entries by date
+##  Installation & Setup
+1. Clone the repository:
 
-### 3. Analytics Dashboard
-- Visual pie chart of interaction types
-- Summary cards showing total friends, on-track relationships, and attention needed
-- Monthly interaction counts
-
+   ```bash
+   git clone [https://github.com/mouislambd/assignment-7.git](https://github.com/mouislambd/assignment-7.git)
